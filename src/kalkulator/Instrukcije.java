@@ -15,7 +15,15 @@ public class Instrukcije {
 	//Metoda mnozenja
 
 	//Metoda djeljenja
-	//Metoda korjenovanje
-	//Metoda kvadriranje
 	
+	//Metoda korjenovanje
+	public double korijen(double a){
+		return Math.sqrt(a);
+	}
+	
+	//Metoda kvadriranje
+	public double kvadrat(double a){
+		return (a*a); 
+		
+	}
 }

@@ -34,10 +34,10 @@ public class App {
 			System.out.println("Rezultat operacije je: ");
 			break;
 		case "2":
-			System.out.println("Rezultat operacije je: ");
+			System.out.println("Rezultat operacije je: " + a.kvadrat(broj1));
 			break;
 		case "V":
-			System.out.println("Rezultat operacije je: ");
+			System.out.println("Rezultat operacije je: " + a.korijen(broj1));
 			break;
 		}
 
